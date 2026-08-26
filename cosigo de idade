@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro dt
+
+		escreva("digite seu ano de nascimento:  ")
+		leia(dt)
+
+		dt = dt - 2026 
+
+		escreva("sua idade e: ", dt)
+
+		
+	}
+}
