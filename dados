@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro vl
+		caracter nome 
+		
+		escreva("digite sua idade   ")
+		leia(vl)
+
+		escreva("digite o seu nome  ")
+		leia(nome)
+
+		escreva("\n")
+
+		escreva("o nome e  ", nome)
+		escreva("\n")
+		escreva("a idade e  ", vl)
+		
+	}
+}
