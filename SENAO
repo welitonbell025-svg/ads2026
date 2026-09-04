@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro n
+	
+		escreva("digite a nota ")
+		leia(n)
+
+		se(n >= 70){
+
+			escreva("sua nota e " , n ," esta aprova")
+			
+		}senao se (n <= 40){
+			
+				escreva("sua nota e " , n ," esta reprovado")	
+			
+			
+		}senao se (n <= 65 ){
+
+			escreva("sua nota e " , n ," esta na media")
+			
+		}
+	}
+}
