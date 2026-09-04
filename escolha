@@ -1,0 +1,29 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro op
+
+		escreva("Escolha uma das opções abaixo:\n")
+		escreva("1 - Livro\n")
+		escreva("2 - Série\n")
+		escreva("3 - Celular\n")
+		escreva("Digite sua opção: ")
+		leia(op)
+
+		escolha(op)
+		{
+			caso 1:
+				escreva("Você escolheu o livro.")
+				pare
+
+			caso 2:
+				escreva("Você escolheu a série.")
+				pare
+
+			caso 3:
+				escreva("Você escolheu o celular.")
+				pare
+		}
+	}
+}
